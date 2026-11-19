@@ -1,0 +1,22 @@
+name: auspex
+description: Pure-Dart headless state machine introspection, ls/do JSON protocol, loopback debug socket server, and CLI client for Dart and Flutter apps.
+version: 0.1.0
+repository: https://github.com/fikrilal/auspex
+homepage: https://github.com/fikrilal/auspex
+issue_tracker: https://github.com/fikrilal/auspex/issues
+resolution: workspace
+
+environment:
+  sdk: ^3.10.3
+
+dependencies:
+  args: ^2.7.0
+  bloc: ^9.2.1
+
+dev_dependencies:
+  bloc_test: ^10.0.0
+  lints: ^6.0.0
+  test: ^1.30.0
+
+executables:
+  auspex:
